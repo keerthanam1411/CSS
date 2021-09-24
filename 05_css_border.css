@@ -1,0 +1,68 @@
+div{
+    height: 200px;
+    width: 300px;
+
+
+}
+
+
+div{
+
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+}
+
+
+/* div{
+
+   
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: green;
+
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-right-color: green;
+
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: green;
+
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: green;
+
+    border-left: 5px solid green;
+    border-right: 3px dashed blue;
+    border-top: 4px dotted red;
+    border-bottom: 6px double black;
+
+    border: 5px dashed deeppink;
+} */
+
+/* border radius */
+div{
+
+    border: 5px solid blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 50px;
+
+    border-radius: 20px;
+
+    border-radius: 10px 20px;
+
+    border-radius: 10px 20px 30px;
+
+    border-radius: 10px 20px 30px 40px;
+
+    border-radius: 50%;
+}

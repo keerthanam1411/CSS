@@ -1,0 +1,46 @@
+div{
+    border: 10px dotted red;
+    height: 700px;
+    width: 700px;
+    margin: 20px auto;
+
+    /* background-color */
+    background-color: gray;
+
+    /* background-image */
+    background-image:url("../images/image1.jpg"),url("../images/image2.jpg");
+
+    /* background-repeat */
+    background-repeat: no-repeat, repeat;
+    background-repeat: repeat-x, repeat;
+    background-repeat: repeat-y, repeat;
+    background-repeat: no-repeat, round;
+    background-repeat: no-repeat, space;
+
+    /* background-size */
+    background-size: 200px 300px, 250px 250px ;
+    background-size: 400px 300px, contain;
+    background-size: 400px 300px, cover;
+
+    /* background-attachment */
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+    /* background-position */
+    background-position: top right;
+    background-position: top left, top left;
+    background-position: bottom left, top left;
+    background-position: bottom right, top left;
+    background-position: center right, top left;
+    background-position: center left, top left;
+    background-position: center center, top left;
+
+    /* background-clip */
+    background-clip: padding-box;
+    background-clip: border-box;
+    background-clip: content-box;
+
+
+    padding: 50px;
+
+}

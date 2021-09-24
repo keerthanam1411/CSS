@@ -1,0 +1,32 @@
+div{
+    background-color: #f4f4f4;
+    border: 3px solid black;
+    margin: 20px auto;
+    height: 650px;
+    width: 500px;
+    padding: 20px;
+}
+h1:first-child{
+    color: red;
+}
+h2:last-child{
+    color: blue;
+}
+p:first-of-type{
+    color: green;
+}
+p:last-of-type{
+    color: purple;
+}
+ul li:nth-child(odd){
+    color: steelblue;
+}
+ul li:nth-child(even){
+    color: palevioletred;
+}
+h1:nth-child(2){
+    color: turquoise;
+}
+p:nth-of-type(2){
+    color: tomato;
+}

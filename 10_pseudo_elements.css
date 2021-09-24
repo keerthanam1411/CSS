@@ -1,0 +1,36 @@
+#main-div{
+    background-color: #f4f4f4;
+    border: 3px solid black;
+    padding: 20px;
+}
+#div-1,#div-2{
+    border: 4px solid green;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+#div-1 p::first-line{
+    color: red;
+}
+#div-1 h1::first-letter{
+    font-size: 50px;
+    color: chocolate;
+}
+li::before{
+    content: url(../favicon.ico);
+    content: '*';
+}
+li::after{
+    content: '$';
+}
+#div-2 h1::selection{
+    color: pink;
+    background-color: purple;
+}
+#div-2 p::selection{
+    color: yellow;
+    background-color: black;
+}
+ul li::marker{
+    color: red;
+    font-size: 25pxs;
+}

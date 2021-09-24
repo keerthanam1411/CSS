@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: #333;
+    overflow: auto;
+}
+ul{
+    float: right;
+    margin-right: 20px;
+}
+nav h1{
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 15px;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 8px;
+    padding: 5px 12px;
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+nav h1 span{
+    color: orange;
+}
+nav ul li a:hover{
+    background-color:rgb(80, 80, 80);
+}

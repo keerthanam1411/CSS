@@ -1,0 +1,40 @@
+div{
+    background-color: #f4f4f4;
+    border: 3px solid black;
+    height: 300px;
+    width: 500px;
+    margin: 10px auto;
+}
+h1{
+    display: block;
+}
+a{
+    display: block;
+}
+
+
+h1{
+    display: inline;
+}
+a{
+    display: inline;
+}
+
+
+
+h1{
+    display: inline-block;
+}
+a{
+    display: inline-block;
+}
+
+
+/* #para1{
+    display: none;
+} */
+
+
+#para1{
+    visibility: hidden;
+}
